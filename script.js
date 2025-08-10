@@ -1,14 +1,11 @@
-// Loop words in hero subline
-const items = document.querySelectorAll('.loop-item');
-let i = 0;
-function cycle(){
-  items.forEach((el, idx)=>{
-    el.classList.toggle('is-active', idx === i);
-  });
-  i = (i + 1) % items.length;
-}
-setInterval(cycle, 1800);
-cycle();
+const loopItems = ["strategy", "growth", "impact"];
+let currentIndex = 0;
+const loopElement = document.querySelector(".loop");
 
-// Year in footer
-document.getElementById('year').textContent = new Date().getFullYear();
+function updateLoop() {
+  loopElement.textContent = loopItems[currentIndex];
+  currentIndex = (currentIndex + 1) % loopItems.length;
+}
+
+setInterval(updateLoop, 1800);
+updateLoop();
