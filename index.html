@@ -1,94 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Metrikks – Digital performance</title>
-  <meta name="description" content="Metrikks hjälper till med strategi, spårning och tillväxt inom digital marknadsföring.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metrikks</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="logo">Metrikks</div>
-      <nav class="nav">
-        <a href="#services">Tjänster</a>
-        <a href="#contact">Kontakt</a>
-      </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1>Data-driven marketing <span class="loop"></span></h1>
+      <p class="lead">Vi hjälper företag att växa genom avancerad analys, kreativa strategier och mätbara resultat.</p>
+      <a href="#services" class="btn-primary">Våra tjänster</a>
     </div>
-  </header>
+  </section>
 
-  <main>
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <h1 class="h1">Digital marketing, delivered with precision</h1>
-        <div class="hero-subline">
-          <span>Performance marketing made&nbsp;</span>
-          <span class="loop" aria-live="polite">
-            <span class="loop-item is-active">smarter</span>
-            <span class="loop-item">efficient</span>
-            <span class="loop-item">simple</span>
-          </span>
+  <!-- SERVICES -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Våra tjänster</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Digital strategi</h3>
+          <p>Utveckla en datadriven plan som leder till långsiktig tillväxt och hållbara resultat.</p>
         </div>
-        <p class="lead">
-          Vi bygger mätbar tillväxt med strategi, dataspårning och kanaloptimering.
-          Fokus på resultat, inte fluff.
-        </p>
-        <div class="cta-row">
-          <a class="btn primary" href="#contact">Boka intro</a>
-          <a class="btn ghost" href="#services">Se tjänster</a>
+        <div class="service-card">
+          <h3>Performance marketing</h3>
+          <p>Optimera kampanjer för maximal ROI genom analys, testning och kontinuerlig förbättring.</p>
         </div>
-      </div>
-    </section>
-
-    <!-- SERVICES -->
-    <section id="services" class="section">
-      <div class="container section-inner">
-        <h2 class="h2 left">Services</h2>
-
-        <div class="services-grid">
-          <article class="card">
-            <h3 class="card-title">Strategy &amp; Insights</h3>
-            <p class="card-text">Roadmap, mål och mätplan. Vi prioriterar där effekt och hastighet möts.</p>
-          </article>
-
-          <article class="card">
-            <h3 class="card-title">Data &amp; Tracking</h3>
-            <p class="card-text">GA4, server-side, taggning och datakvalitet. Rätt data, rätt beslut.</p>
-          </article>
-
-          <article class="card">
-            <h3 class="card-title">Full-funnel Growth</h3>
-            <p class="card-text">Kanalmix, kreativa loopar och experiment för varaktig ROAS.</p>
-          </article>
+        <div class="service-card">
+          <h3>Data & analys</h3>
+          <p>Fatta smartare beslut med hjälp av insikter från avancerad datainsamling och visualisering.</p>
         </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section contact">
-      <div class="container section-inner">
-        <h2 class="h2 left">Kontakt</h2>
-        <p class="lead small">Vill du se om vi är rätt partner? Skicka ett meddelande så tar vi ett snabbt intro.</p>
-        <a class="btn primary" href="mailto:hello@metrikks.com">hello@metrikks.com</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>© <span id="year"></span> Metrikks</div>
-      <div class="foot-nav">
-        <a href="#services">Tjänster</a>
-        <a href="#contact">Kontakt</a>
       </div>
     </div>
-  </footer>
+  </section>
 
-  <script src="script.js"></script>
+  <!-- USP -->
+  <section class="usp">
+    <div class="container">
+      <h2>Varför välja Metrikks?</h2>
+      <div class="usp-grid">
+        <div class="usp-item">
+          <h3>Datadrivet från start</h3>
+          <p>Vi fattar beslut baserade på fakta, inte magkänsla, för att säkerställa mätbara resultat.</p>
+        </div>
+        <div class="usp-item">
+          <h3>Helhetsstrategi</h3>
+          <p>Från idé till genomförande – vi täcker hela marknadsföringskedjan.</p>
+        </div>
+        <div class="usp-item">
+          <h3>Långsiktig tillväxt</h3>
+          <p>Vi fokuserar på att bygga hållbara strategier som ger värde över tid.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>Vad våra kunder säger</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p>"Metrikks hjälpte oss att dubbla vår konverteringsgrad på bara tre månader."</p>
+          <span>- Anna, E-commerce Manager</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"Otroligt kunniga inom både analys och kreativ strategi. Rekommenderas starkt."</p>
+          <span>- Johan, Marketing Director</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<script src="script.js"></script>
 </body>
 </html>
